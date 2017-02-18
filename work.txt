@@ -1,0 +1,15 @@
+1 注解事务+Mybatis+JDBC原生访问数据库结合的例子，要求JDBC参与到已有事务中
+2 给出最适合requireNew与nested两种事务的使用场景案例
+3
+   下面的业务方法，如何重构，从而实现进行事务性能方面的优化，
+   MyServiceA
+    {
+     public void dobusiness()
+               {
+                     queryLargRecords();
+                     calcData();
+                     updateMatchedRecords();
+               }
+    }
+
+4 加分题，实现ＰＰＴ上的相关编程，即用注解方式完全替换ＸＭＬ的事务定义，给出例子
